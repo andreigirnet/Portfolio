@@ -3,8 +3,8 @@
 <div class="wrapper">
     <!--Header ABOUT ME-->
     <div>
-        <div style=" letter-spacing: .2rem; position: absolute; top: -2px; left: 458px; font-weight: 800; font-size: 137px; color: #222222">RESUME</div>
-        <div style=" position: absolute; top:52px; left: 612px; display: flex; color: white; font-weight: 800; font-size: 64px;">ABOUT <div style="color: #ffb400; font-size: 64px">ME</div></div>
+        <div id="resume">RESUME</div>
+        <div id="about_me">ABOUT <div id="me">ME</div></div>
     </div>
     <!--End Header ABOUT ME-->
     <!--Section Infos-->
@@ -72,7 +72,7 @@
     <hr style="width: 30%; background-color: gray; height: 1px; border: none; margin-top: 80px; margin-left: 370px ">
     <!--Section MY SKILLS-->
     <div>
-        <h1 style="color: white; font-size: 40px; margin-left:441px; margin-top: 40px; margin-bottom: 20px; letter-spacing: .1rem">MY SKILLS</h1>
+        <h1 id="my-skills-title" >MY SKILLS</h1>
         <div id="chart">
             <div class="grid_chart">
                 <svg viewBox="0 0 36 36" class="circular-chart orange">
@@ -216,9 +216,9 @@
     <!--ENDSection MY SKILLS-->
     <hr style="width: 30%; background-color: gray; height: 1px; border: none; margin-top: 80px; margin-left: 386px">
     <!--COURSES and STUDIES-->
-    <h1 style="color: white; font-size: 40px; margin-left:361px; margin-top: 40px; margin-bottom: 20px; letter-spacing: .1rem">Courses & Education</h1>
+    <h1 id="courses_title" style="">Courses & Education</h1>
     <div id="studies" style="margin-bottom: 200px;">
-        <div>
+        <div id="london">
             <div class="courses" style="display: flex">
                 <div class="small-circle-icon"><img src="{{asset('assets/icons/briefcase.png')}}" alt=""></div>
                 <div>
@@ -250,7 +250,8 @@
                 </div>
             </div>
         </div>
-        <div style="margin-left: 235px;">
+
+        <div id="uni">
             <div>
                 <div class="courses" style="display: flex">
                     <div class="small-circle-icon"><img src="{{asset('assets/icons/book.png')}}" alt=""></div>

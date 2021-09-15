@@ -2,8 +2,8 @@
 @section('content')
      <div class="wrapper">
         <div>
-            <div style=" letter-spacing: .2rem; position: absolute; top: -26px; left:500px; font-weight: 800; font-size: 155px; color: #222222">Works</div>
-            <div style=" position: absolute; top:52px; left: 589px; display: flex; color: white; font-weight: 800; font-size: 64px;">My  <div style="color: #ffb400; font-size: 64px">Portfolio</div></div>
+            <div id="portfolio_works">Works</div>
+            <div id="my_portfolio">MY <div id="portfolio_title">Portfolio</div></div>
         </div>
             <div id="grid-project-parent">
                 <a style="text-decoration: none" href="https://pizzeriacaruso.md/"> <div class="grid-project-child"><img class="p-img" src="{{asset('assets/portfolio/1.jpg')}}" alt="">

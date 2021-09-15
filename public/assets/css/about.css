@@ -3,11 +3,29 @@
     margin: auto;
     height: 100vh;
 }
+#resume{
+    letter-spacing: .2rem;
+    position: absolute;
+    top: -2px;
+    left: 458px;
+    font-weight: 800;
+    font-size: 137px;
+    color: #222222
+}
+#about_me{
+    position: absolute;
+    top:52px;
+    left: 612px;
+    display: flex;
+    color: white;
+    font-weight: 800;
+    font-size: 64px;
+}
 #personal_infos{
     margin-top: 237px;
 }
 #inside-infos{
-    display: flex
+    display: flex;
 }
 #second_column_info{
     margin-left: 60px
@@ -18,10 +36,18 @@
 #title_infos{
     color: white; letter-spacing: .1rem
 }
+#my-skills-title{
+    color: white;
+    font-size: 40px;
+    margin-left:441px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: .1rem
+}
 .gray_text{
     display: flex;
     color: #B0B0B0;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 30px;
 }
 .white_text{
@@ -29,7 +55,7 @@
     margin-left: 7px;
 }
 .grid_element{
-    width: 260px;
+    width: 218px;
     height: 160px;
     border: 1px solid #B0B0B0;
     border-radius: 5px;
@@ -170,8 +196,19 @@
     display: flex;
     margin-left: 169px;
   }
+#courses_title{
+    color: white;
+    font-size: 40px;
+    margin-left:361px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: .1rem
+}
+#uni{
+    margin-left: 235px;
+}
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 900px) {
     #inside-infos{
         display: block;
     }
@@ -185,10 +222,164 @@
         margin: 50px 0  0 300px;
     }
     #experience{
-        margin: 150px 0 0 100px
+        margin: 150px 0 0 50px
     }
     #button{
-        margin: 150px 0 0  300px;
+        margin: 150px 0 0  250px;
+    }
+    #my-skills-title{
+        margin-left: 270px;
+    }
+    #chart{
+        grid-template-columns: auto auto auto;
+        margin-left: 30px;
+    }
+    hr{
+        display: none;
+    }
+    #studies{
+        margin-left: 70px;
+    }
+    .courses{
+        margin-top: 40px;
+    }
+    #courses_title{
+        margin-left:280px;
+    }
+    #resume{
+        left: 120px;
+    }
+    #about_me{
+        left:290px;
+    }
+    #me{
+        color: #ffb400;
+        font-size: 64px
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    #inside-infos{
+        display: block;
+    }
+    #first_column_info{
+        margin: 50px 0  0 200px;
+    }
+    #second_column_info{
+        margin: 50px 0  0 200px;
+    }
+    #title_infos{
+        margin: 50px 0  0 200px;
+    }
+    #experience{
+        margin: 150px 0 0 120px;
+    }
+    #grid{
+        display: block;
+    }
+    .grid_element{
+        margin-top: 20px;
+    }
+    #button{
+        margin: 150px 0 0  190px;
+    }
+    #my-skills-title{
+        margin-left: 180px;
+    }
+    #chart{
+        grid-template-columns: auto auto;
+        margin-left: 30px;
+    }
+    hr{
+        display: none;
+    }
+    #studies{
+        margin-left: 70px;
+    }
+    .courses{
+        margin-top: 40px;
+    }
+    #courses_title{
+        margin-left:180px;
+    }
+    #resume{
+        left: 10px;
+        font-size: 120px;
+    }
+    #about_me{
+        left:130px;
+        top: 40px;
+    }
+    #studies{
+        display: block;
+    }
+    #uni{
+        margin-left: 0;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    #inside-infos{
+        display: block;
+    }
+    #first_column_info{
+        margin: 50px 0  0 0;
+    }
+    #second_column_info{
+        margin: 50px 0  0 0;
+    }
+    #title_infos{
+        margin: 50px 0  0 10px;
+    }
+    #experience{
+        margin: 150px 0 0 0;
+    }
+    #grid{
+        display: block;
+        margin-left: 0;
+    }
+    .grid_element{
+        margin-top: 20px;
+    }
+    #button{
+        margin: 150px 0 0  10px;
+    }
+    #my-skills-title{
+        margin-left: 10px;
+    }
+    #chart{
+        grid-template-columns: auto;
+        margin-left: 30px;
+    }
+    hr{
+        display: none;
+    }
+    #studies{
+        margin-left: 2px;
+    }
+    .courses{
+        margin-top: 40px;
+    }
+    #courses_title{
+        margin-left:2px;
+    }
+    #resume{
+       display: none;
+    }
+    #about_me{
+        left:10px;
+        top: 40px;
+        font-size: 40px;
+    }
+    #me{
+        font-size: 40px;
+    }
+    #studies{
+        display: block;
+    }
+    #uni{
+        margin-left: 0;
     }
 
 }

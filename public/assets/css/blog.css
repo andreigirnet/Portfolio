@@ -1,3 +1,21 @@
+#posts_title{
+    letter-spacing: .2rem;
+    position: absolute;
+    top: -26px;
+    left: 474px;
+    font-weight: 800;
+    font-size: 155px;
+    color: #222222;
+}
+#blog_title{
+    position: absolute;
+    top:52px;
+    left: 620px;
+    display: flex;
+    color: white;
+    font-weight: 800;
+    font-size: 64px;
+}
 #cards{
     margin-top: 300px;
     display: grid;
@@ -25,5 +43,30 @@
 .blog-text{
     color: white;
     padding: 0 15px 10px 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #cards{
+        grid-template-columns: auto auto;
+    }
+    #posts_title{
+        left: 250px;
+    }
+    #blog_title{
+        left: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    #cards{
+        grid-template-columns: auto;
+    }
+    #posts_title{
+       display: none;
+    }
+    #blog_title{
+        left: 80px;
+    }
 }
 

@@ -2,8 +2,8 @@
 @section('content')
     <div class="wrapper">
         <div style="padding-bottom: 50px">
-        <div style=" letter-spacing: .2rem; position: absolute; top: -26px; left: 474px; font-weight: 800; font-size: 155px; color: #222222">POSTS</div>
-        <div style=" position: absolute; top:52px; left: 620px; display: flex; color: white; font-weight: 800; font-size: 64px;">MY <div style="color: #ffb400; font-size: 64px">BLOG</div></div>
+        <div id="posts_title">POSTS</div>
+        <div id="blog_title">MY <div style="color: #ffb400; font-size: 64px">BLOG</div></div>
         <div id="cards">
             @foreach($posts as $post)
                 <a style="text-decoration: none" href="{{route('front.blog.show',[$post->id])}}">
