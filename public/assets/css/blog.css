@@ -1,0 +1,29 @@
+#cards{
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+}
+.card-post{
+    background: #252525;
+    width: 350px;
+    height: 400px;
+    cursor: pointer;
+    transition: 2s;
+    overflow: hidden;
+}
+.card-post:hover{
+    transform: scale(0.9, 0.9);
+}
+.card-post img{
+    height: 190px;
+    width: 350px;
+    transition: 2s;
+}
+.blog-text{
+    color: white;
+    padding: 0 15px 10px 15px;
+}
+

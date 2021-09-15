@@ -1,0 +1,26 @@
+#contact-left{
+    width: 400px
+}
+#mail img{
+    width: 40px;
+    height: 42px;
+}
+#call img{
+    width: 40px;
+    height: 35px;
+}
+.input {
+    height: 50px;
+    width: 200px;
+    border-radius: 20px ;
+    background-color: #252525;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    padding: 0 15px;
+
+}
+.left{
+    margin-left: 20px;
+}

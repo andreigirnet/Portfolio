@@ -1,0 +1,27 @@
+#grid-project-parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 70px;
+    margin-top: 300px;
+}
+.grid-project-child{
+    width: 300px;
+    height: 300px;
+    background-color:  #111111;
+    border-radius: 10px;
+    transition: 2s;
+    cursor: pointer;
+}
+.p-img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px
+}
+.p-img:hover {
+    background: #1a202c;
+}
+
+.grid-project-child:hover{
+    transform: scale(0.9,0.9);
+}
+
