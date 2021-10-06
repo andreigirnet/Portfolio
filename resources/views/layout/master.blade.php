@@ -65,6 +65,5 @@
     @yield('content')
     <script src="{{asset('assets/js/menu.js')}}"></script>
     <script src="{{asset('assets/js/sequence.js')}}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js" integrity="sha512-P3/SDm/poyPMRBbZ4chns8St8nky2t8aeG09fRjunEaKMNEDKjK3BuAstmLKqM7f6L1j0JBYcIRL4h2G6K6Lew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
