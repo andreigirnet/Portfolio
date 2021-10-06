@@ -9,13 +9,13 @@
     <div id="content"; >
 
             <div id="photo" >
-                <img src="{{asset('assets/main_photo/main.png')}}" alt="">
+                <img src="{{asset('assets/main_photo/main2.jpg')}}" alt="">
             </div>
             <div id="welcome">
                 <div style="display: flex">
                 <div style="font-size: 42px; color:#ffb400; line-height: 52px; letter-spacing: .2rem; font-weight: 900">- I'M ANDREI GIRNET.</div><br>
                 </div>
-                <div style="font-size: 42px; color:#ffff; line-height: 52px; letter-spacing: .2rem; margin-left: 20px; font-weight: 700">WEB DEVELOPER</div>
+                <div id="sequence"></div>
                 <p style="color: white; line-height: 45px; font-size: 20px; letter-spacing: .1rem;">I am passionated web developer based in the United Kingdom, specialised on both front end and backend.
                 I am a proficient user of languages like: HTML, CSS, PHP, LARAVEL and JAVASCRIPT.  I do enjoy building excellent software that improves the lives of those around me.
                 </p>

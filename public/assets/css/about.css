@@ -324,16 +324,16 @@
         display: block;
     }
     #first_column_info{
-        margin: 50px 0  0 0;
+        margin: 50px 0  0 70px;
     }
     #second_column_info{
-        margin: 50px 0  0 0;
+        margin: 50px 0  0 70px;
     }
     #title_infos{
-        margin: 50px 0  0 10px;
+        margin: 50px 0  0 60px;
     }
     #experience{
-        margin: 150px 0 0 0;
+        margin: 150px 0 0 70px;
     }
     #grid{
         display: block;
@@ -343,14 +343,14 @@
         margin-top: 20px;
     }
     #button{
-        margin: 150px 0 0  10px;
+        margin: 150px 0 0  50px;
     }
     #my-skills-title{
-        margin-left: 10px;
+        margin-left: 60px;
     }
     #chart{
         grid-template-columns: auto;
-        margin-left: 30px;
+        margin-left: 60px;
     }
     hr{
         display: none;
@@ -362,13 +362,13 @@
         margin-top: 40px;
     }
     #courses_title{
-        margin-left:2px;
+        margin-left:50px;
     }
     #resume{
        display: none;
     }
     #about_me{
-        left:10px;
+        left:130px;
         top: 40px;
         font-size: 40px;
     }

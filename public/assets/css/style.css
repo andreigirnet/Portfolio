@@ -14,7 +14,7 @@
 }
 #photo{
     margin-top: 31px;
-    width: 473px;
+    width: 430px;
     height: 633px;
     z-index: 4;
     background-color: #040203;
@@ -32,7 +32,7 @@
 }
 #photo img{
     margin: auto;
-    width: 473px;
+    width: 430px;
     border-radius: 37px;
     height: 633px;
 
@@ -78,6 +78,16 @@
     border-radius: 50%;
     width: 60px;
     justify-content: center;
+
+}
+#sequence{
+    font-size: 38px;
+    color:#ffff;
+    font-family: neuemachina-ultrabold;
+    line-height: 52px;
+    letter-spacing: .2rem;
+    font-weight: 700;
+    text-align: center;
 
 }
 #button:hover #overflow{

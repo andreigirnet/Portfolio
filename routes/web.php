@@ -3,6 +3,7 @@
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\front\BlogController;
 use App\Http\Controllers\PostController;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,6 +32,10 @@ Route::get('front/contact', function () {
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
 Route::get('/front/blog', [BlogController::class, 'index'])->name('front.blog');
 Route::get('/front/blog/{post}', [BlogController::class, 'show'])->name('front.blog.show');
+Route::get('/download/cv', function(){
+    $file = storage_path()."/cv/resume.pdf";
+    return response()->download($file,'resume.pdf');
+})->name('cv');
 
 
 
