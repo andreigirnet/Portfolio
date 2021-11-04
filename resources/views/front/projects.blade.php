@@ -6,8 +6,8 @@
             <div id="my_portfolio">MY <div id="portfolio_title">Portfolio</div></div>
         </div>
             <div id="grid-project-parent">
-                <a style="text-decoration: none" href="https://pizzeriacaruso.md/"> <div class="grid-project-child"><img class="p-img" src="{{asset('assets/portfolio/1.jpg')}}" alt="">
-                    <div style="color: white; display: flex; align-items: center; justify-content: center; margin-top:30px; font-size: 23px">Pizza Coruso</div>
+                <a style="text-decoration: none" href="http://movies-actors-info.herokuapp.com/"> <div class="grid-project-child"><img class="p-img" src="{{asset('assets/portfolio/movies.png')}}" alt="">
+                    <div style="color: white; display: flex; align-items: center; justify-content: center; margin-top:30px; font-size: 23px">Movies App</div>
                  </div></a>
                 <a style="text-decoration: none" href="https://mariontravel.md/"><div class="grid-project-child"><img class="p-img" src="{{asset('assets/portfolio/2.jpg')}}" alt="">
                     <div style="color: white; display: flex; align-items: center; justify-content: center; margin-top:30px; font-size: 23px">Marion Travel</div>

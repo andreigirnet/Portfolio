@@ -2,9 +2,10 @@
 <html>
 <head>
     <title>Andrei's Girnet Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{asset('assets/main_photo/main2.jpg')}}" />
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('/assets/css/style.css')}}">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('/assets/css/menu.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/about.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/projects.css')}}">
@@ -65,5 +66,6 @@
     @yield('content')
     <script src="{{asset('assets/js/menu.js')}}"></script>
     <script src="{{asset('assets/js/sequence.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js" integrity="sha512-P3/SDm/poyPMRBbZ4chns8St8nky2t8aeG09fRjunEaKMNEDKjK3BuAstmLKqM7f6L1j0JBYcIRL4h2G6K6Lew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
