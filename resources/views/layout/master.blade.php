@@ -4,13 +4,15 @@
     <title>Andrei's Girnet Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{asset('assets/main_photo/main2.jpg')}}" />
-    <link rel="stylesheet" href="{{asset('/assets/css/style.css')}}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('/assets/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/menu.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/about.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/projects.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/contact.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/blog.css')}}">
+    <link rel="stylesheet" href="{{asset('/assets/css/loader.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js" integrity="sha512-nIwdJlD5/vHj23CbO2iHCXtsqzdTTx3e3uAmpTm4x2Y8xCIFyWu4cSIV8GaGe2UNVq86/1h9EgUZy7tn243qdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css" integrity="sha512-braXHF1tCeb8MzPktmUHhrjZBSZknHvjmkUdkAbeqtIrWwCchhcpUeAf2Sq3yIq1Q1x5PlroafjceOUbIE3Q5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,7 +21,7 @@
 <body>
     <div id="app" x-data="{menuShow: false, info:false}">
     <!-- Right Side menu-->
-
+            @include('components.loader')
             <div x-show.transition.1600ms="info" id="drop-info"><div>Dropdown-Menu</div></div>
             <div @mouseover="info=true" @mouseout="info=false" @click = "menuShow = true" class="dropdown_button">
                 <img src="{{asset('assets/icons/down.png')}}" alt="">
@@ -66,6 +68,7 @@
     @yield('content')
     <script src="{{asset('assets/js/menu.js')}}"></script>
     <script src="{{asset('assets/js/sequence.js')}}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js" integrity="sha512-P3/SDm/poyPMRBbZ4chns8St8nky2t8aeG09fRjunEaKMNEDKjK3BuAstmLKqM7f6L1j0JBYcIRL4h2G6K6Lew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="{{asset('assets/js/pageLoader.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js" integrity="sha512-P3/SDm/poyPMRBbZ4chns8St8nky2t8aeG09fRjunEaKMNEDKjK3BuAstmLKqM7f6L1j0JBYcIRL4h2G6K6Lew==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </body>
 </html>

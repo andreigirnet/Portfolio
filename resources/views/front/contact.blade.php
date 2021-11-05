@@ -3,7 +3,7 @@
     <div class="wrapper">
         <div>
             <div id="contact_header">Contact</div>
-            <div id="get_in">Get in  <div style="color: #ffb400; font-size: 64px">Touch</div></div>
+            <div id="get_in">Get in  <div id="touch" style="">Touch</div></div>
             <div id="contact_wrap">
                 <div id="contact-left">
                     <h1 style="color: white; letter-spacing: .1rem; margin-left: 5px">Don't be shy !</h1>

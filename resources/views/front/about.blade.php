@@ -63,7 +63,7 @@
         </div>
         <form method="get" action="{{route('cv')}}">
             <button type="submit">
-                <div id="button"  style="margin-top: 50px">
+                <div id="button-download"  style="margin-top: 50px">
                     <div id="overflow"></div>
                     <div style="color: white; margin-left: 30px; ">DOWNLOAD CV</div>
                     <div id="arrow"><img src="{{asset('assets/icons/arrow.png')}}" alt=""></div>

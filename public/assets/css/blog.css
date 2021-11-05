@@ -44,6 +44,15 @@
     color: white;
     padding: 0 15px 10px 15px;
 }
+#error_blog{
+    width:1150px;
+    display: flex;
+    justify-content: center
+}
+#blog-t{
+    color: #ffb400;
+    font-size: 64px;
+}
 
 @media only screen and (max-width: 1200px) {
     #cards{
@@ -54,6 +63,9 @@
     }
     #blog_title{
         left: 400px;
+    }
+    #error_blog{
+        width: 1000px;
     }
 
 }
@@ -67,6 +79,15 @@
     }
     #blog_title{
         left: 80px;
+        font-size: 49px;
+    }
+    #error_blog{
+        width: 300px;
+    }
+    #blog-t{
+        font-size: 49px;
+        color: #ffb400;
+        margin-left: 10px;
     }
 }
 

@@ -11,7 +11,7 @@ use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/register', function(){
-    return abort(404);
+    return abort(404, 'Page Not Found');
 });
 
 Route::post('/register', [RegisteredUserController::class, 'store'])

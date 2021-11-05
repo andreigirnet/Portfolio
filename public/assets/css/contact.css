@@ -50,7 +50,7 @@
 }
 #contact-right{
     margin-top: 40px;
-    margin-left: 50px
+    margin-left: 50px;
 }
 #textarea{
     font-size: 20px;
@@ -123,6 +123,10 @@
     background-color: #a7a329;
     color: white
 }
+#touch{
+    color: #ffb400;
+    font-size: 64px
+}
 
 
 @media only screen and (max-width: 1200px) {
@@ -143,6 +147,64 @@
         margin-bottom: 100px;
     }
 }
+@media only screen and (max-width: 768px) {
+    #contact_wrap {
+        display: block;
+    }
+
+    #contact-left {
+        width: 400px;
+        margin-left: 100px;
+    }
+
+    #contact_header {
+        display: none;
+    }
+
+    #get_in {
+        left: 245px;
+        font-size: 47px;
+    }
+
+    #form-flex {
+        display: block;
+    }
+
+    .left {
+        margin-left:0;
+    }
+
+    .input {
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    #contact-right {
+        margin-left: 89px;
+    }
+
+    #textarea {
+        width: 400px;
+    }
+
+    #btn-sb {
+        margin-left: 70px;
+        margin-bottom: 100px;
+    }
+
+    #error_red {
+        width: 400px;
+    }
+
+    #success_green {
+        width: 400px;
+    }
+
+    #touch {
+        font-size: 47px;
+        margin-left: 10px;
+    }
+}
 
 @media only screen and (max-width: 700px) {
     #contact_wrap{
@@ -157,6 +219,7 @@
     }
     #get_in{
         left: 60px;
+        font-size: 47px;
     }
     #form-flex{
         display: block;
@@ -184,4 +247,9 @@
     #success_green{
         width: 400px;
     }
+    #touch{
+        font-size: 47px;
+        margin-left: 10px;
+    }
+
 }

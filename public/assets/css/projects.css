@@ -60,15 +60,31 @@
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 769px) {
     #grid-project-parent{
-        grid-template-columns: auto;
-        margin-left: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 50px;
+        margin-left: -35px;
     }
     #portfolio_works{
         display: none;
     }
     #my_portfolio{
         left: 20px;
+    }
+    @media only screen and (max-width: 700px) {
+        #grid-project-parent {
+            grid-template-columns: auto;
+            grid-column-gap: 50px;
+            margin-left: 10px;
+        }
+
+        #portfolio_works {
+            display: none;
+        }
+
+        #my_portfolio {
+            left: 20px;
+        }
     }
 }

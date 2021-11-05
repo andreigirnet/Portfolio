@@ -81,6 +81,7 @@ drop-d{
     background-color: #ffb400;
     border-radius: 50%;
     display: flex;
+    z-index: 55;
     visibility: hidden;
     justify-content: center;
     align-items: center;
